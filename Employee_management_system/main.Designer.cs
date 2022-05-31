@@ -152,7 +152,7 @@
             // 
             // Insertbtn
             // 
-            this.Insertbtn.Location = new System.Drawing.Point(248, 533);
+            this.Insertbtn.Location = new System.Drawing.Point(251, 533);
             this.Insertbtn.Margin = new System.Windows.Forms.Padding(4);
             this.Insertbtn.Name = "Insertbtn";
             this.Insertbtn.Size = new System.Drawing.Size(138, 41);

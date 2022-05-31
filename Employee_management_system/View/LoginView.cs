@@ -24,12 +24,36 @@ namespace Employee_management_system.View
 
         private void button1_Click(object sender, EventArgs e)
         {
-            String username, user_password;
-
+            var message = LoginController.ShowMessage(txtUserName.Text, txtPassword.Text)
+            if(message != null)
+            {
+                MessageBox.Show(message);
+            }
+            else
+            {
+                MainView mv = new MainView();
+                this.Hide();
+                mv.Show();
+            }
             
         }
 
         private void lblWelcomeScreen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblUserName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
         {
 
         }
